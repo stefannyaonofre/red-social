@@ -68,7 +68,7 @@ const Login = () => {
           </label>
         </div>
         <button type="submit" className="btn btn-success">Iniciar Sesión</button>
-        <span>Si no tienes cuenta, puedes crear una cuenta <Link to='/register'>Aquí</Link></span>
+        <span className="pt-5">Si no tienes cuenta, puedes crear una cuenta <Link to='/register'>Aquí</Link></span>
       </form>
     </div>
   );
